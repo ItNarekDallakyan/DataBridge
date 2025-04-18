@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--configure password activity-->
+    <string name="configure_password_activity_title">Action Required</string>
+    <string name="configure_password_activity_description">Your device needs to be password protected. The password has not been configured yet, expired, or does not meet the requirements</string>
+    <string name="configure_password_activity_configure_password">CONFIGURE PASSWORD</string>
+    <!--configure password activity-->
+
+</resources>

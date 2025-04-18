@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="narek.dallakyan.datalink.PERMISSION_ACCESS_DATA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App1">
+        <provider
+            android:name="narek.dallakyan.datalink.contentprovider.DataStoreContentProvider"
+            android:authorities="narek.dallakyan.datalink.dataProvider"
+            android:directBootAware="true"
+            android:enabled="true"
+            android:exported="true"
+            android:grantUriPermissions="true"
+            android:permission="narek.dallakyan.datalink.PERMISSION_ACCESS_DATA" />
+    </application>
+
+</manifest>
