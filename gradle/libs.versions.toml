@@ -1,0 +1,64 @@
+[versions]
+accompanistSystemUiController = "0.34.0"
+activityCompose = "1.9.1"
+appcompat = "1.7.0"
+composeMaterial3 = "1.2.1"
+composeRuntimeLivedata = "1.6.8"
+composeUiTooling = "1.6.8"
+coreKtx = "1.13.1"
+coroutines = "1.8.0"
+gradle = "8.2.2"
+junit = "4.13.2"
+kotlin = "2.0.0"
+lifecycleRuntimeKtx = "2.8.4"
+lifecycleViewmodelCompose = "2.8.4"
+navigationCompose = "2.7.7"
+securityCrypto = "1.1.0-alpha06"
+timber = "5.0.1"
+agp = "8.2.2"
+kotlinVersion = "2.0.0"
+material = "1.12.0"
+hilt = "2.51.1"
+ksp = "2.0.0-1.0.23"
+room = "2.6.1"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+composeBom = "2024.04.01"
+
+[libraries]
+accompanistSystemUiController = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanistSystemUiController" }
+activityCompose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+composeMaterial3 = { module = "androidx.compose.material3:material3", version.ref = "composeMaterial3" }
+composeRuntimeLivedata = { module = "androidx.compose.runtime:runtime-livedata", version.ref = "composeRuntimeLivedata" }
+composeUiTooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "composeUiTooling" }
+coreKtx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+coroutinesAndroid = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+coroutinesCore = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+gradlePlugin = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+junit = { module = "junit:junit", version.ref = "junit" }
+kotlinGradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+lifecycleRuntimeKtx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+lifecycleViewmodelCompose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleViewmodelCompose" }
+navigationCompose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
+securityCrypto = { module = "androidx.security:security-crypto", version.ref = "securityCrypto" }
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+roomRuntime = { module = "androidx.room:room-runtime", version.ref = "room" }
+roomCompiller = { module = "androidx.room:room-compiler", version.ref = "room" }
+roomKtx = { module = "androidx.room:room-ktx", version.ref = "room" }
+extJunit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espressoCore = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+composeBom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+ui = { group = "androidx.compose.ui", name = "ui" }
+uiGraphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+uiToolingPreview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+uiTestManifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+uiTestJunit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+[plugins]
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlinVersion" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+android-application = { id = "com.android.application", version.ref = "agp" }
